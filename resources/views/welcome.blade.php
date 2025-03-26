@@ -438,7 +438,11 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-info">
-                <img src="{{ asset('img/LogoProviTurismo.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+
+                <div class="logo-container">
+                    <img src="{{ asset('img/log.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                </div>
+                
                 <br><br>
                 <p>🌄Transformando el turismo con experiencias auténticas y sostenibles.</p>
                 <div class="social-icons">
