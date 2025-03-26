@@ -23,7 +23,7 @@
                             <div class="invalid-feedback">Por favor seleccione un tipo</div>
                         </div>
                     </div>
-
+ 
                     <div class="col-md-4">
                         <div class="form-floating">
                             <select name="origen" id="origen" class="form-select" required>
