@@ -32,10 +32,13 @@
         <!-- Navbar con nuevas clases -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid px-4">
-              
+                <div class="d-flex align-items-center">
+                    <img src="{{ asset('img/log.png') }}" alt="ProviTurismo Logo" class="navbar-logo me-2">
+                    <a class="navbar-brand" href="{{ url('/') }}">ProviTurismo</a>
+                </div>
 
                 <div class="logo-container">
-                    <img src="{{ asset('img/log.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                    
                 </div>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
@@ -435,9 +438,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-info">
-         
-                    <img src="{{ asset('img/log.png') }}" alt="ProviTurismo Logo" class="footer-logo">
-               
+                <img src="{{ asset('img/LogoProviTurismo.png') }}" alt="ProviTurismo Logo" class="footer-logo">
                 <br><br>
                 <p>🌄Transformando el turismo con experiencias auténticas y sostenibles.</p>
                 <div class="social-icons">
