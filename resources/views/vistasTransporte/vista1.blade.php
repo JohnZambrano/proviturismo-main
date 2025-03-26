@@ -87,15 +87,11 @@
                 <h3 style="color: var(--primary);"><i class="fas fa-route"></i> Ruta Providencia - Pasto</h3>
                 <div class="horario-item">
                     <h3 style="color: var(--primary);">Hora de salida: </h3>
-                    <span>Lunes a Viernes</span>
-                    <span>5:00 AM y 3:00 PM</span>
+                    <span>Lunes a Domingo</span>
+                    <span> 3:00 PM</span>
                 </div>
-                <div class="horario-item">
-                    <h3 style="color: var(--primary);">Hora de salida: </h3>
-                    <span>Sábados y Domingo</span>
-                    <span>5:00 AM y 2:00 PM</span>
-                </div>
-                <p style="margin-top: 1rem;"><i class="fas fa-map-marker-alt"></i> Paradas principales: Mercado Central, Hospital, Terminal</p>
+              
+                <p style="margin-top: 1rem;"><i class="fas fa-map-marker-alt"></i> Paradas principales: Mercado Central, Terminal</p>
                 <p style="margin-top: 1rem;"><i class="fas fa-bus"></i> Vehículos: Busetas 12 puestos</p>
             </div>
 
@@ -104,14 +100,14 @@
                 <div class="horario-item">
                     <h3 style="color: var(--primary);">Hora de salida: </h3>
                     <span>Lunes a Viernes</span>
-                    <span>10:00 AM Y 4:00 PM</span>
+                    <span>10:00 AM</span>
                 </div>
                 <div class="horario-item">
                     <h3 style="color: var(--primary);">Hora de salida: </h3>
                     <span>Sábados y Domingos</span>
-                    <span>11:00 AM y 3:00 PM</span>
+                    <span>12:00 PM</span>
                 </div>
-                <p style="margin-top: 1rem;"><i class="fas fa-map-marker-alt"></i> Paradas principales: Parque Central, Hospital, Terminal</p>
+                <p style="margin-top: 1rem;"><i class="fas fa-map-marker-alt"></i> Paradas principales: Parque Central, Terminal</p>
                 <p style="margin-top: 1rem;"><i class="fas fa-bus"></i> Vehículos: Busetas 12 puestos</p>
             </div>
 
@@ -295,7 +291,10 @@
  <footer class="footer">
         <div class="footer-container">
         <div class="footer-info">
-                <img src="{{ asset('img/LogoProviTurismo.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                <div class="logo-container">
+                    <img src="{{ asset('img/LogoProviturismo.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                </div>
+
                 <p>🌄Transformando el turismo con experiencias auténticas y sostenibles.</p>
                 <div class="social-icons">
                     <a href="https://www.facebook.com/profile.php?id=100009479425407&locale=es_LA"><i class="fab fa-facebook-f"></i></a>
@@ -331,6 +330,8 @@
                     <i class="fab fa-whatsapp"></i> WhatsApp Directo
                  </a>
             </div>
+
+            <a href="https://www.digitalocean.com/?refcode=87c26049ef2e&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
         </div>
             
     </footer>

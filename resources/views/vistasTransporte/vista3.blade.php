@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transipiales - Transporte en Providencia Nariño</title>
+    <title>TransProvidencia - Transporte en Providencia Nariño</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
    
     <link rel="stylesheet" href="{{ asset('css/styleswelcome.css') }}">
@@ -678,7 +678,10 @@
  <footer class="footer">
         <div class="footer-container">
         <div class="footer-info">
-                <img src="{{ asset('img/LogoProviTurismo.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                <div class="logo-container">
+                    <img src="{{ asset('img/LogoProviturismo.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                </div>
+
                 <p>🌄Transformando el turismo con experiencias auténticas y sostenibles.</p>
                 <div class="social-icons">
                     <a href="https://www.facebook.com/profile.php?id=100009479425407&locale=es_LA"><i class="fab fa-facebook-f"></i></a>
@@ -715,6 +718,8 @@
                     <i class="fab fa-whatsapp"></i> WhatsApp Directo
                  </a>
             </div>
+
+            <a href="https://www.digitalocean.com/?refcode=87c26049ef2e&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
         </div>
             
     </footer>

@@ -39,6 +39,19 @@
         </div>
 
         <div class="card">
+            <img src="{{ asset('img/ruta.jpg') }}" class="d-block w-100" alt="...">
+                <div class="card-content">
+                    <h3>Rutas del Sur S.A</h3>
+                    <p>Rutas del Sur S.A es una empresa de transporte terrestre que opera en el municipio de Providencia,
+                        ubicado en el departamento de Nariño, Colombia. Esta compañía es reconocida por ofrecer servicios de movilidad
+                        esenciales para los habitantes de Providencia y las regiones aledañas, facilitando el transporte 
+                        de pasajeros y encomiendas. Al encontrarse en una zona predominantemente rural, su labor es clave 
+                        para la conectividad y el desarrollo económico de la región.</p>
+                        <a href="{{ route('vistasTransporte.vista4') }}" class="reserve-button">Ver más</a>
+                </div>
+        </div>
+
+        <div class="card">
         <img src="{{ asset('img_servicios/Pasto.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
                 <h3> Expreso San Juan de Pasto S.A</h3>
@@ -51,17 +64,19 @@
         </div>
 
         <div class="card">
-        <img src="{{ asset('img_servicios/TransProvi.jpeg') }}" class="d-block w-100" alt="...">
-            <div class="card-content">
-                <h3>TransProvidencia S.A</h3>
-                <p>TransProvidencia S.A. es una empresa de transporte terrestre que opera en el municipio de Providencia,
-                     ubicado en el departamento de Nariño, Colombia. Esta compañía es reconocida por ofrecer servicios de movilidad
-                      esenciales para los habitantes de Providencia y las regiones aledañas, facilitando el transporte 
-                      de pasajeros y encomiendas. Al encontrarse en una zona predominantemente rural, su labor es clave 
-                      para la conectividad y el desarrollo económico de la región.</p>
-                       <a href="{{ route('vistasTransporte.vista3') }}" class="reserve-button">Ver más</a>
-            </div>
+            <img src="{{ asset('img_servicios/TransProvi.jpeg') }}" class="d-block w-100" alt="...">
+                <div class="card-content">
+                    <h3>TransProvidencia S.A</h3>
+                    <p>TransProvidencia S.A. es una empresa de transporte terrestre que opera en el municipio de Providencia,
+                        ubicado en el departamento de Nariño, Colombia. Esta compañía es reconocida por ofrecer servicios de movilidad
+                        esenciales para los habitantes de Providencia y las regiones aledañas, facilitando el transporte 
+                        de pasajeros y encomiendas. Al encontrarse en una zona predominantemente rural, su labor es clave 
+                        para la conectividad y el desarrollo económico de la región.</p>
+                        <a href="{{ route('vistasTransporte.vista3') }}" class="reserve-button">Ver más</a>
+                </div>
         </div>
+
+        
 
 </div>   
 

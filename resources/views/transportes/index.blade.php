@@ -11,7 +11,7 @@
     @endif
 
     @if($transportes->isEmpty())
-        <p>No hay transportes registrados.</p>
+        <p>No hay publicaciones.</p>
     @else
         <div class="card-container">
             @foreach ($transportes as $transporte)

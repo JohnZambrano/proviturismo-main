@@ -27,6 +27,12 @@ class TransporteController extends Controller
      {
          return view('vistasTransporte.vista3');
      }
+
+     
+     public function vista4()
+     {
+         return view('vistasTransporte.vista4');
+     }
  
  
 }

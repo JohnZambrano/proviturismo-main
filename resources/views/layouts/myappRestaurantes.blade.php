@@ -31,7 +31,7 @@
         </style>
 
         <h1 id="hero-title-unique">Restaurantes en Providencia</h1>
-        <p id="hero-subtitle-unique">🍽️ Descubre el sabor y la elegancia en nuestros restaurantes 🍷</p>
+        <p id="hero-subtitle-unique">🍽️ Descubre el sabor y la comodidad en nuestros restaurantes 🍷</p>
 
         </div>
         <br><br>

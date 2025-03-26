@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expreso San Juan de Pasto - Transporte en Providencia Nariño</title>
+    <title>Rutas del Sur - Transporte en Providencia Nariño</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
    
     <link rel="stylesheet" href="{{ asset('css/styleswelcome.css') }}">
@@ -12,7 +12,7 @@
 
 
     <nav class="nav-bar">
-        <a href="#" class="logo">EXPRESO SAN JUAN DE PASTO S.A</a>
+        <a href="#" class="logo">Rutas del Sur S.A</a>
         <div class="nav-toggle" onclick="toggleMenu()">
             <span></span>
             <span></span>
@@ -43,7 +43,7 @@
             <h1 style="font-size: 3rem; margin-bottom: 1rem;">Transporte seguro en Providencia Nariño</h1>
             <p style="font-size: 1.2rem;">Conectamos comunidades con excelencia</p>
             <br><br>
-            <a href="https://ex-sap-a.com/" class="btn-primary" role="button" aria-label="Visitar sitio oficial Expreso San Juan de Pasto">
+            <a href="https://www.datacreditoempresas.com.co/directorio/rutas-del-sur-sa.html" class="btn-primary" role="button" aria-label="Visitar sitio oficial Expreso San Juan de Pasto">
                 <i class="fas fa-bus"></i>
                 <span>Visitar página oficial</span>
             </a>
@@ -92,8 +92,8 @@
                 </div>
                 <div class="horario-item">
                     <h3 style="color: var(--primary);">Hora de salida: </h3>
-                    <span>Domingos</span>
-                    <span>12:00</span>
+                    <span>Domingos </span>
+                    <span>12:00 PM</span>
                 </div>
                 <p style="margin-top: 1rem;"><i class="fas fa-map-marker-alt"></i> Paradas principales: Mercado Central, Terminal</p>
                 <p style="margin-top: 1rem;"><i class="fas fa-bus"></i> Vehículos: Busetas 19 puestos</p>
@@ -103,10 +103,10 @@
                 <h3 style="color: var(--primary);"><i class="fas fa-route"></i> Ruta Pasto - Providencia</h3>
                 <div class="horario-item">
                     <h3 style="color: var(--primary);">Hora de salida: </h3>
-                    <span>Lunes a Domingo</span>
-                    <span>12:00 PM</span>
+                    <span>Lunes a Domingo </span>
+                    <span>3:30</span>
                 </div>
-              
+               
                 <p style="margin-top: 1rem;"><i class="fas fa-map-marker-alt"></i> Paradas principales: Parque Central, Terminal</p>
                 <p style="margin-top: 1rem;"><i class="fas fa-bus"></i> Vehículos: Busetas 19 puestos</p>
             </div>
@@ -114,11 +114,11 @@
             <div class="ruta-card">
                 <h3 style="color: var(--primary);"><i class="fas fa-truck"></i> Servicio de Carga</h3>
                 <div class="horario-item">
-                    <span>Recolecciones</span>
+                    <span>Recolecciones </span>
                     <span>Lun-Sab 8:00 AM - 12:00 PM</span>
                 </div>
                 <div class="horario-item">
-                    <span>Entregas</span>
+                    <span>Entregas </span>
                     <span>Lun-Vie 8:00 PM - 6:00 PM</span>
                 </div>
                 <p style="margin-top: 1rem;"><i class="fas fa-map-pin"></i> Zona de cobertura: Radio 50km</p>
@@ -246,7 +246,7 @@
                 <!-- Oficina Principal -->
                 <div class="contacto-item">
                     <i class="fas fa-building icono-contacto"></i>
-                    <h3>Punto de Empresa Expreso San Juan de Pasto</h3>
+                    <h3>Punto de Empresa Rutas del Sur</h3>
                     <p class="direccion">Carrera 5 #6-8<br>Barrio San Jose</p>
                     <p class="horario">
                         <i class="fas fa-clock"></i> Horario: 6:00 AM - 8:00 PM

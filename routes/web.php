@@ -73,6 +73,7 @@ Route::get('/evento_cultural/index',[ActividadCulturalController::class, 'index'
 Route::get('/vistasTransporte/vista1', [TransporteController::class, 'vista1'])->name('vistasTransporte.vista1');
 Route::get('/vistasTransporte/vista2', [TransporteController::class, 'vista2'])->name('vistasTransporte.vista2');
 Route::get('/vistasTransporte/vista3', [TransporteController::class, 'vista3'])->name('vistasTransporte.vista3');
+Route::get('/vistasTransporte/vista4', [TransporteController::class, 'vista4'])->name('vistasTransporte.vista4');
 
 /* Rutas para mostrar vistas de hoteles*/
 Route::get('/vistasHoteles/vista1', [HotelController::class, 'vista1'])->name('vistasHoteles.vista1');

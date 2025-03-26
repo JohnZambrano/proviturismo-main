@@ -11,7 +11,7 @@
     @endif
 
     @if($hoteles->isEmpty())
-        <p>No hay hoteles registrados.</p>
+        <p>No hay publicaciones.</p>
     @else
         <div class="card-container">
             @foreach ($hoteles as $hotel)
