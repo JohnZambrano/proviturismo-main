@@ -24,7 +24,7 @@
         <div class="hero-content">
             <br><br><br><br>
             <div class="logo-container">
-                <img src="{{ asset('img/log.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+            <img src="{{ asset('img/log.png') }}" alt="ProviTurismo Logo" class="footer-logo">
             </div>
             <div class="hero-content">
                 <h1 id="hero-title-unique">Descubre ProviTurismo</h1>
