@@ -10,8 +10,8 @@
                 <div class="col-sm-6">
                     <h1 class="m-0 text-dark">
                         <i class="fas fa-tachometer-alt"></i> ProviTurismo
-                        <link rel="icon" type="image/png" href="{{ asset('img/log.png') }}"> 
                     </h1>
+                    <link rel="icon" type="image/png" href="{{ asset('img/log.png') }}"> 
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">

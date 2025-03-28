@@ -33,7 +33,7 @@
                                      class="gallery-img"
                                      loading="lazy">
                             @endforeach
-                       </div>
+                       </div> 
                     @endif
                     
                     <div class="card-body">

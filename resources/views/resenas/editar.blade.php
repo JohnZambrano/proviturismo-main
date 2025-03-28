@@ -8,7 +8,7 @@
         <div class="card-body px-lg-5 py-4">
             <form action="{{ route('resenas.update', $resena->id) }}" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
                 @csrf
-                @method('PUT')
+                @method('PUT') 
 
                 <!-- Sección de Información Básica -->
                 <div class="row g-4 mb-5">
