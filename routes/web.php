@@ -47,7 +47,9 @@ Route::get('/dashboard', function () {
 /* Ruta para sitemap */
 
 Route::get('/sitemap.xml', function () {
-    return response()->view('sitemap')->header('Content-Type', 'application/xml');
+    return response()
+        ->view('sitemap')
+        ->header('Content-Type', 'text/xml');
 });
 
 
