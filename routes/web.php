@@ -49,7 +49,7 @@ Route::get('/dashboard', function () {
 Route::get('/sitemap.xml', function () {
     return response()
         ->view('sitemap')
-        ->header('Content-Type', 'text/xml'); // ¡Forzar el header XML!
+        ->header('Content-Type', 'text/xml'); // Obligatorio
 });
 
 
