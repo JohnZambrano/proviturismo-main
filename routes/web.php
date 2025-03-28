@@ -45,14 +45,7 @@ Route::get('/dashboard', function () {
 
 
 /* Ruta para sitemap */
-
-Route::get('/sitemap.xml', function () {
-    return response()
-        ->view('sitemap')
-        ->header('Content-Type', 'text/xml'); // Obligatorio
-});
-
-
+Route::get('/sitemap.xml', [SiteMapController::class, 'index']);
 
 /* Rutas para ServicioHotelController y sus vistas */
 
