@@ -11,7 +11,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>{{ url('/about/planea') }}</loc>
+        <loc>{{ url('/about/planes') }}</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -29,20 +29,5 @@
         <loc>{{ url('/servicios/hoteles') }}</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>{{ url('/servicios/restaurantes') }}</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>{{ url('/servicios/transporte') }}</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>{{ url('/lugar_turistico/index') }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
     </url>
 </urlset>
