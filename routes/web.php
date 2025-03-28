@@ -25,15 +25,12 @@ use App\Http\Controllers\NoticiasController;
 
 
 use App\Http\Controllers\ContactFormController;
-
+use App\Http\Controllers\SiteMap\SiteMapController;
  
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Response;
 
 
-Route::get('/sitemap.xml', function () {
-    return response()->view('sitemap')->header('Content-Type', 'application/xml');
-});
 
 
 /* Ruta para la vista principal welcome */
@@ -46,6 +43,12 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+
+/* Ruta para sitemap */
+
+Route::get('/sitemap.xml', function () {
+    return response()->view('sitemap')->header('Content-Type', 'application/xml');
+});
 
 
 
