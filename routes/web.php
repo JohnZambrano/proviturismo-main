@@ -28,6 +28,12 @@ use App\Http\Controllers\ContactFormController;
 
  
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Response;
+
+
+Route::get('/sitemap.xml', function () {
+    return response()->view('sitemap')->header('Content-Type', 'application/xml');
+});
 
 
 /* Ruta para la vista principal welcome */
