@@ -44,8 +44,6 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 
-/* Ruta para sitemap */
-Route::get('/sitemap.xml', [SiteMapController::class, 'index']);
 
 /* Rutas para ServicioHotelController y sus vistas */
 
