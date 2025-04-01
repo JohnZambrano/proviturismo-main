@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nosotros - Proviturismo</title>
-    <link rel="icon" type="image/png" href="{{ asset('img/log.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('img/mylog.png') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     
@@ -20,7 +20,7 @@
         <div class="hero-content">
         <br><br><br><br>  
                <div class="logo-container">
-                    <img src="{{ asset('img/log.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                    <img src="{{ asset('img/mylog.png') }}" alt="ProviTurismo Logo" class="footer-logo">
                 </div>
             <h1>Descubre ProviTurismo</h1>
             <p style="color: black;">🚗Tu ventana al turismo sostenible y las experiencias auténticas🌟</p>
@@ -223,7 +223,7 @@
         <div class="footer-container">
             <div class="footer-info">
                 <div class="logo-container">
-                    <img src="{{ asset('img/LogoProviturismo.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                    <img src="{{ asset('img/myprovidencia.png') }}" alt="ProviTurismo Logo" class="footer-logo">
                 </div>
                 <br><br>
                 <p>🌄Transformando el turismo con experiencias auténticas y sostenibles.</p>
