@@ -11,7 +11,7 @@
                     <h1 class="m-0 text-dark">
                         <i class="fas fa-tachometer-alt"></i> ProviTurismo
                     </h1>
-                    <link rel="icon" type="image/png" href="{{ asset('img/log.png') }}"> 
+                    <link rel="icon" type="image/png" href="{{ asset('img/mylog.png') }}"> 
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">

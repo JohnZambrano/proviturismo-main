@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProviTurismo</title>
-    <link rel="icon" type="image/png" href="{{ asset('img/log.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('img/mylog.png') }}">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap">
@@ -33,7 +33,7 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid px-4">
                 <div class="d-flex align-items-center">
-                    <img src="{{ asset('img/log.png') }}" alt="ProviTurismo Logo" class="navbar-logo me-2">
+                    <img src="{{ asset('img/mylog.png') }}" alt="ProviTurismo Logo" class="navbar-logo me-2">
                     <a class="navbar-brand" href="{{ url('/') }}">ProviTurismo</a>
                 </div>
 
@@ -440,7 +440,7 @@
             <div class="footer-info">
 
                 <div class="logo-container">
-                    <img src="{{ asset('img/LogoProviturismo.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                    <img src="{{ asset('img/myprovidencia.png') }}" alt="ProviTurismo Logo" class="footer-logo">
                 </div>
 
                  
