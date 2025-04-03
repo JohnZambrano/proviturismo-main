@@ -30,7 +30,7 @@
            
         </style>
 
-    <h1 id="hero-title-unique">Hoteles en Providencia</h1>
+    <h1 id="hero-title-unique">Hoteles en Providencia, Nariño</h1>
     <p id="hero-subtitle-unique">🏨Descubre el confort y la elegancia en nuestros hoteles🛎️</p>
         </div>
         <br><br> <br> 

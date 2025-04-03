@@ -27,7 +27,7 @@
         </div>
         <div class="hero-content">
 
-            <h1 id="hero-title-unique">Descubre lugares en Providencia</h1>
+            <h1 id="hero-title-unique">Descubre lugares en Providencia, Nariño</h1>
             <p id="hero-subtitle-unique">♻️Turismo sostenible y experiencias auténticas🌄</p>
     
         </div>

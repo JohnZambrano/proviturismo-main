@@ -103,7 +103,7 @@
                 <img src="{{ asset('img_actividades/nov1.jpeg') }}" class="d-block w-100" alt="imagen">
                 <div class="card-content">
                     <h4>Experiencia única:</h4>
-                    <p> Los visitantes pueden disfrutar de un ambiente festivo y acogedor, participando en eventosen eventos 
+                    <p> Los visitantes pueden disfrutar de un ambiente festivo y acogedor, participando en eventos 
                     culturales y festivos que ofrecen una experiencia inolvidable y enriquecedora.</p>
                     <div class="icon-group">
                     <i class="fas fa-church"></i>

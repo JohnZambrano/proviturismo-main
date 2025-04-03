@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="title">🏨📢 Lista de publicaciones de Hoteles disponibles 🌟🛎️</h1>
+    <h1 class="title">🏨📢 Lista de publicaciones de hoteles disponibles 🌟🛎️</h1>
 
     @if (session('success'))
         <div class="alert alert-success">

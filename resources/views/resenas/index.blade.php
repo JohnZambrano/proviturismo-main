@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="title">🌟📝 Reseñas de la Plataforma Turística ProviTurismo 🗺️⭐</h1>
+    <h1 class="title">🌟📝 Reseñas de la plataforma turística ProviTurismo 🗺️⭐</h1>
 
     @if (session('success'))
         <div class="alert alert-success">

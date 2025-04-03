@@ -28,7 +28,7 @@
             </div>
             <div class="hero-content">
                 <h1 id="hero-title-unique">Descubre ProviTurismo</h1>
-                <p id="hero-subtitle-unique">♻️Turismo sostenible y experiencias auténticas🌄</p>
+                <p id="hero-subtitle-unique">♻️El turismo de Nariño y sus experiencias auténticas🌟🌄</p>
             </div>
 
             <br><br>
@@ -83,7 +83,7 @@
                             <i class="fas fa-user-friends service-icon"></i>
                             <h3>Ofrece un servicio:</h3>
                             <br>
-                            <p>Registrate y ten la oportunidad de promocionar tu servicio a traves de ProviTurismo.</p>
+                            <p>Regístrate y ten la oportunidad de promocionar tu servicio a través de ProviTurismo.</p>
                         </div>
                     </div>
 

@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="title">🍔📢 Editar publicación de Restaurante🍣🔥</h1>
+    <h1 class="title">🍔📢 Editar publicación de restaurante🍣🔥</h1>
 
     <form action="{{ route('restaurantes.update', $restaurante->id) }}" method="POST" enctype="multipart/form-data">
         @csrf

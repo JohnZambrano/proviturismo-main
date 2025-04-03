@@ -3,7 +3,7 @@
 @section('content')
 <div class="container-lg py-5">
     <div class="card shadow-lg border-0">
-    <h1 class="title">🌟📝 Crear Nueva Reseña Turística 🗺️⭐</h1>
+    <h1 class="title">🌟📝 Crear nueva reseña turística 🗺️⭐</h1>
 
         <div class="card-body px-lg-5 py-4">
             <form action="{{ route('resenas.store') }}" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>

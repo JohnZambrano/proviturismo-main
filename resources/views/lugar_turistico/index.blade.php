@@ -63,7 +63,7 @@
         <img src="{{ asset('img/Tola.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
                 <h3>Cerro la tola</h3>
-                <p>EL Cerro la Tola queda cerca del pueblo, se puede decir que a unos 200 o 250 metros.
+                <p>El Cerro la Tola queda cerca del pueblo, se puede decir que a unos 200 o 250 metros.
                      Y es de esos sitios que tienen lo mejor de 2 mundos: una parte montañosa y otra parte plana
                       donde se puede relajar porque la naturaleza ahí es tranquila. 
                        En especial, en julio y todo agosto, es cuando se llena de vida, 
@@ -75,7 +75,7 @@
         <div class="card">
         <img src="{{ asset('img/LaVirgen.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
-                <h3>Capilla de nuestra señora del Rosario vereda Santa Lucia, mirador</h3>
+                <h3>Capilla de nuestra señora del Rosario vereda Santa Lucía, mirador</h3>
                 <p>La Capilla de la Virgen de las Lajas situada en la vereda Santa Lucía es un lugar de gran devoción 
                     y atractivo en el municipio de Providencia, Nariño. La capilla se encuentra estratégicamente al borde de la carretera. 
                     Desde allí se puede disfrutar de una impresionante vista panorámica de las montañas y la abundante vegetación 
@@ -88,7 +88,7 @@
         <img src="{{ asset('img/BriceñoRacing.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
                 <h3>Pista Briceño Racing</h3>
-                <p>La Pista Briceño Racing es una pista de veloarena para motos ubicada en la vereda La Floresta, 
+                <p>La Pista Briceño Racing es una pista de velo arena para motos ubicada en la vereda La Floresta, 
                     en el municipio de Providencia. Es un lugar popular entre los entusiastas del motociclismo, 
                     ofreciendo un terreno desafiante y emocionante para carreras y prácticas. Regularmente,
                      se organizan eventos y competencias en la Pista Briceño Racing, atrayendo a pilotos de diferentes

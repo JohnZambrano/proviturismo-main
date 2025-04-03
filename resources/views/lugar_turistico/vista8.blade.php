@@ -1,7 +1,8 @@
-
 @extends('layouts.myappLugares')
 
+
 @section('content')
+
 
             <section class="main-hero" data-aos="fade-down" style="background: linear-gradient(rgba(34,139,34,0.9), rgba(34,139,34,0.7)), url('https://picsum.photos/1920/600?travel') center/cover;">
                 <div class="hero-header">
@@ -22,31 +23,34 @@
             <h2>🌍Conoce sobre el lugar🚶</h2>
             <div class="decorative-line"></div>
         </div>
-        
+       
         <div class="info-cards">
+
 
           <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-monument"></i>
                 <h3>Construcción y singularidad:</h3>
-                <p> La Gruta de la Virgen de Lourdes, construida con piedras 
+                <p> La Gruta de la Virgen de Lourdes, construida con piedras
                     recogidas por los habitantes, destaca por su carácter único y rústico,
                      con una cruz tallada en piedra y una urna adornada con flores.</p>
             </div>
-            
+           
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-road"></i>
                 <h3>Accesibilidad:</h3>
-                <p> Situada a la orilla de la calle en el barrio Lourdes, la gruta es fácilmente 
-                    accesible a pie o en vehículo, permitiendo que 
+                <p> Situada a la orilla de la calle en el barrio Lourdes, la gruta es fácilmente
+                    accesible a pie o en vehículo, permitiendo que
                     tanto locales como turistas la visiten sin complicaciones.</p>
             </div>
+
 
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-camera"></i>
                 <h3>Experiencia espiritual:  </h3>
-                <p>La gruta es un importante centro de devoción y un atractivo turístico, 
+                <p>La gruta es un importante centro de devoción y un atractivo turístico,
                     ofreciendo una experiencia espiritual y de conexión con la tradición de Providencia.</p>
             </div>
+
 
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-torii-gate"></i>
@@ -55,13 +59,15 @@
                      incluyendo novenas y misas, que atraen a muchos devotos y llenan el lugar de vida.</p>
             </div>
 
+
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-sun"></i>
                 <h3> Historia y creencias:</h3>
-                <p> La gruta está ligada a la construcción del templo anterior 
-                    de Providencia y es vista como un símbolo de fe y protección, 
+                <p> La gruta está ligada a la construcción del templo anterior
+                    de Providencia y es vista como un símbolo de fe y protección,
                     cuidada y embellecida por los habitantes a lo largo del tiempo.</p>
             </div>
+
 
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-hiking"></i>
@@ -72,28 +78,32 @@
         </div>
     </section>
 
+
          <!-- Sección de Horarios y Rutas -->
      <section class="rutas-section" id="rutas">
         <h2 style="text-align: center; color: var(--primary); margin-bottom: 2rem;">Mapa de localización del municipio de Providencia-Nariño</h2>
-        
+       
         <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63795.45603278168!2d-77.4835976!3d1.5564694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e29943234a82c37%3A0x60f5d84d79b4d4d7!2sProvidencia%2C%20Nari%C3%B1o!5e0!3m2!1ses!2sco!4v1718507271719!5m2!1ses!2sco" 
-                    width="100%" 
-                    height="100%" 
-                    style="border:0;" 
-                    allowfullscreen="" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63795.45603278168!2d-77.4835976!3d1.5564694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e29943234a82c37%3A0x60f5d84d79b4d4d7!2sProvidencia%2C%20Nari%C3%B1o!5e0!3m2!1ses!2sco!4v1718507271719!5m2!1ses!2sco"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
                     loading="lazy">
             </iframe>
         </div>
+
 
        
     </section>
 
 
+
+
     <!-- Sección Actividades -->
     <section id="actividades" class="activities-section">
         <h2 data-aos="fade-right">🌿Experiencias únicas que vivirás🌄</h2>
-        
+       
         <div class="activity-carousel">
             <!-- Carrusel con tarjetas -->
             <div class="activity-card" data-aos="zoom-in">
@@ -108,6 +118,7 @@
                 </div>
             </div>
 
+
             <div class="activity-card" data-aos="zoom-in">
                <img src="{{ asset('img_lugares/g2.jpeg') }}" class="d-block w-100" alt="imagen">
                 <div class="card-content">
@@ -119,6 +130,7 @@
                     </div>
                 </div>
             </div>
+
 
             <div class="activity-card" data-aos="zoom-in">
                <img src="{{ asset('img_lugares/g4.jpeg') }}" class="d-block w-100" alt="imagen">
@@ -132,17 +144,19 @@
                 </div>
             </div>
 
+
             <div class="activity-card" data-aos="zoom-in">
                 <img src="{{ asset('img_lugares/g5.jpeg') }}" class="d-block w-100" alt="imagen">
                 <div class="card-content">
                     <h4>Acceso a la Gruta:</h4>
-                    <p> La gruta situada a la orilla de la calle, fácilmente accesible para visitantes.</p>
+                    <p> La gruta está situada a la orilla de la calle, fácilmente accesible para visitantes.</p>
                     <div class="icon-group">
                     <i class="fas fa-hiking"></i>
                     <i class="fas fa-map-marked-alt"></i>
                     </div>
                 </div>
             </div>
+
 
             <div class="activity-card" data-aos="zoom-in">
                <img src="{{ asset('img_lugares/g4.jpeg') }}" class="d-block w-100" alt="imagen">
@@ -156,6 +170,7 @@
                 </div>
             </div>
 
+
             <div class="activity-card" data-aos="zoom-in">
                <img src="{{ asset('img_lugares/g3.jpeg') }}" class="d-block w-100" alt="imagen">
                 <div class="card-content">
@@ -168,11 +183,15 @@
                 </div>
             </div>
 
-            
+
+           
             <!-- Más tarjetas de actividades -->
         </div>
 
+
         <br><br>
+
+
 
 
         <div class="review-container">
@@ -182,7 +201,10 @@
         </div>
 
 
+
+
             <div class="overlay" onclick="closeRating()"></div>
+
 
             <div class="rating-container">
                 <h3>Califica tu experiencia</h3>
@@ -195,7 +217,9 @@
                 </div>
             </div>
 
+
     </section>
+
 
     <!-- Sección Recomendaciones -->
     <section id="recomendaciones" class="recommendations" data-aos="fade-up">
@@ -210,8 +234,8 @@
             <blockquote>
                 "La Gruta del Barrio Lourdes es un sitio de gran significado en Providencia,
                  combinando historia, devoción y belleza natural. Su singular construcción en
-                  piedra y las festividades religiosas la convierten en un lugar especial 
-                  tanto para locales como para visitantes, invitando a todos a formar 
+                  piedra y las festividades religiosas la convierten en un lugar especial
+                  tanto para locales como para visitantes, invitando a todos a formar
                   parte de la tradición espiritual del municipio."
                 <span>- Relata un entrevistado que ha participado del evento.</span>
             </blockquote>

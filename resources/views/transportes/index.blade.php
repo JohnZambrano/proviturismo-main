@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="title">🚗📢 Lista de Publicaciones sobre medios de Transporte 🚌✈️</h1>
+    <h1 class="title">🚗📢 Lista de Publicaciones sobre medios de transporte 🚌✈️</h1>
 
     @if (session('success'))
         <div class="alert alert-success">

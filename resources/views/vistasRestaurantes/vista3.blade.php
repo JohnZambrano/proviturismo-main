@@ -1,6 +1,8 @@
 @extends('layouts.myappRestaurantes')
 
+
 @section('content')
+
 
     <section class="main-hero" data-aos="fade-down">
         <div class="hero-header">
@@ -13,7 +15,8 @@
             <p class="hero-subtitle">Disfruta de una experiencia culinaria única en nuestras elegantes instalaciones</p>
         </div>
     </section>
-            
+           
+
 
     <!-- Sección Descripción -->
     <section id="descripcion" class="section-info" data-aos="fade-up">
@@ -21,36 +24,41 @@
             <h2>🍜Conoce nuestros servicios y la sazón de este lugar🥗</h2>
             <div class="decorative-line"></div>
         </div>
-        
+       
         <div class="info-cards">
+
 
           <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-egg"></i>
                 <h3>Desayunos: </h3>
-                <p> En el Restaurante Marleny, los desayunos son una muestra de amor y tradición. 
+                <p> En el Restaurante Marleny, los desayunos son una muestra de amor y tradición.
                     Disfruta de platos caseros que destacan los sabores frescos y auténticos de la región.</p>
             </div>
-            
+           
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-drumstick-bite"></i>
                 <h3>Almuerzos: </h3>
-                <p> Los almuerzos en Marleny son una experiencia cálida y acogedora, con comida casera hecha con ingredientes locales. 
+                <p> Los almuerzos en Marleny son una experiencia cálida y acogedora, con comida casera hecha con ingredientes locales.
                     Cada plato refleja la hospitalidad y el sabor tradicional de la región.</p>
             </div>
+
 
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-cheese"></i>
                 <h3>Cenas: </h3>
-                <p> Para la cena, Marleny ofrece una atmósfera llena de calidez y tradición. Saborea platos auténticos elaborados con amor, 
+                <p> Para la cena, Marleny ofrece una atmósfera llena de calidez y tradición. Saborea platos auténticos elaborados con amor,
                     perfectos para una noche especial en familia o con amigos.</p>
             </div>
+
 
            
         </div>
     </section>
 
 
-    
+
+
+   
      <!-- Sección: Menú -->
      <section id="menu" class="container my-5 menu-section">
             <h2 class="text-center menu-title">🍽️Menú</h2>
@@ -60,12 +68,12 @@
                     <ul class="menu-list">
                         <li class="menu-item">Sopa de verduras - $5.000</li>
                         <li class="menu-item">Sopa de fideos - $5.000</li>
-                        <li class="menu-item">Arros con huevo revuelto- $6.000</li>
+                        <li class="menu-item">Arroz con huevo revuelto- $6.000</li>
                         <li class="menu-item">Sancocho de Gallina - $8.000</li>
                         <li class="menu-item">Bandeja con Pollo - $8.000</li>
                         <li class="menu-item">Carne a la plancha - $8.000</li>
-                        <li class="menu-item">Arros con pollo - $8.000</li>
-                        <li class="menu-item">Costilla aumada - $8.000</li>
+                        <li class="menu-item">Arroz con pollo - $8.000</li>
+                        <li class="menu-item">Costilla ahumada - $8.000</li>
                         <li class="menu-item">Trucha Frita - $10.000</li>
                        
                     </ul>
@@ -77,18 +85,19 @@
                         <li class="menu-item">Jugo de Maracuyá - $4.000</li>
                         <li class="menu-item">Jugo de Mora - $4.000</li>
                         <li class="menu-item">Chocolate - $4.000</li>
-                        <li class="menu-item">Cafe con arepa - $5.000</li>
-                        <li class="menu-item">Cafe con empanadas- $5.000</li>
+                        <li class="menu-item">Café con arepa - $5.000</li>
+                        <li class="menu-item">Café con empanadas- $5.000</li>
                     </ul>
                 </div>
                 <div class="col-md-4 menu-column">
                     <h4 class="menu-category"> 🍨Postres</h4>
                     <ul class="menu-list">
                         <li class="menu-item">No se ofrece postres</li>
-                        
+                       
                     </ul>
                 </div>
             </div>
+
 
             <div class="review-container">
             <a href="{{ route('resenas.create') }}" class="review-btn" onclick="showRating()" >
@@ -97,7 +106,10 @@
         </div>
 
 
+
+
             <div class="overlay" onclick="closeRating()"></div>
+
 
             <div class="rating-container">
                 <h3>Califica tu experiencia</h3>
@@ -113,28 +125,33 @@
 
 
 
+
+
+
          <!-- Sección de Horarios y Rutas -->
      <section class="rutas-section" id="ubicacion">
         <h2 style="text-align: center; color: var(--primary); margin-bottom: 2rem;">Mapa de localización en el municipio de Providencia-Nariño</h2>
-        
+       
         <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63795.45603278168!2d-77.4835976!3d1.5564694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e29943234a82c37%3A0x60f5d84d79b4d4d7!2sProvidencia%2C%20Nari%C3%B1o!5e0!3m2!1ses!2sco!4v1718507271719!5m2!1ses!2sco" 
-                    width="100%" 
-                    height="100%" 
-                    style="border:0;" 
-                    allowfullscreen="" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63795.45603278168!2d-77.4835976!3d1.5564694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e29943234a82c37%3A0x60f5d84d79b4d4d7!2sProvidencia%2C%20Nari%C3%B1o!5e0!3m2!1ses!2sco!4v1718507271719!5m2!1ses!2sco"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
                     loading="lazy">
             </iframe>
         </div>
 
+
        
     </section>
 
-    
+
+   
     <section class="section" id="contacto">
     <div class="contenedor-general">
         <h2 style="text-align: center; color: var(--primary); margin-bottom: 2rem;">Puntos de Venta en Providencia</h2>
-        
+       
         <div class="venta-card" style="background: white; border-radius: 20px; padding: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.1); max-width: 800px; margin: 0 auto;">
             <div class="contacto-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
                 <!-- Oficina Principal -->
@@ -147,6 +164,7 @@
                         <p>Lunes a Domingo</p>
                     </p>
                 </div>
+
 
                 <!-- Contacto directo -->
                 <div class="contacto-item" style="text-align: center;">
@@ -165,6 +183,7 @@
                 </div>
             </div>
 
+
             <!-- Métodos de pago -->
             <div style="margin-top: 2rem; text-align: center; border-top: 2px solid var(--cream); padding-top: 1.5rem;">
                 <h4 style="color: var(--primary); margin-bottom: 1rem;"><i class="fas fa-credit-card"></i> Medios de Pago</h4>
@@ -178,10 +197,13 @@
                 </div>
             </div>
 
+
         </div>
+
 
     </div>
 </section>
+
 
 <br><br><br>
 @endsection

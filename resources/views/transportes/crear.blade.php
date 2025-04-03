@@ -3,7 +3,7 @@
 @section('content')
 <div class="container-lg py-5">
     <div class="card shadow-lg border-0">
-    <h1 class="title">🚗📢 Crear nueva publicacion de medios de Transporte🚌✈️</h1>
+    <h1 class="title">🚗📢 Crear nueva publicacion de medios de transporte🚌✈️</h1>
 
         <div class="card-body px-lg-5 py-4">
             <form action="{{ route('transportes.store') }}" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>

@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="title">📢 Lista de Noticias publicadas🍣</h1>
+    <h1 class="title">📢 Lista de noticias publicadas🍣</h1>
 
     @if (session('success'))
         <div class="alert alert-success">

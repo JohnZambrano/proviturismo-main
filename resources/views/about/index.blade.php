@@ -23,7 +23,7 @@
                     <img src="{{ asset('img/mylog.png') }}" alt="ProviTurismo Logo" class="footer-logo">
                 </div>
             <h1>Descubre ProviTurismo</h1>
-            <p style="color: black;">🚗Tu ventana al turismo sostenible y las experiencias auténticas🌟</p>
+            <p style="color: black;">🚗El turismo de Nariño y sus experiencias auténticas🌟</p>
             <br><br><br><br>
 
           <!-- Botones modificados -->
@@ -137,15 +137,15 @@
                     <i class="fas fa-map-marker-alt"></i>
                     <div>
                         <h4>Dirección</h4>
-                        <p>Vereda la Floresta-Providencia-Nariño</p>
+                        <p>Vereda la Floresta-Providencia, Nariño</p>
                     </div>
                 </div>
                 <div class="contact-info-item">
                     <i class="fas fa-clock"></i>
                     <div>
                         <h4>Horario de Atención</h4>
-                        <p>Lun-Vie: 9:00 a.m. a 5:00 p.m.</p>
-                        <p>Sáb-Dom: 9:00 a.m. a 12:00 p.m.</p>
+                        <p>Lun-Vie: 4:00 PM a 6:00 PM</p>
+                        <p>Sáb: 9:00 a.m. a 12:00 p.m.</p>
                     </div>
                 </div>
                 <div class="contact-info-item">

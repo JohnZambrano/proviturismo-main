@@ -23,7 +23,7 @@
     <!-- Sección Descripción -->
     <section id="descripcion" class="section-info" data-aos="fade-up">
         <div class="section-header">
-            <h2>Descubre la magia de lugares turisticos en Providencia</h2>
+            <h2>Descubre la magia de lugares turísticos en Providencia</h2>
             <div class="decorative-line"></div>
         </div>
         
@@ -124,7 +124,7 @@
                 <img src="{{ asset('img_actividades/tanda.jpeg') }}" class="d-block w-100" alt="imagen">
                 <div class="card-content">
                     <h4>Vereda Tandayán: </h4>
-                    <p>En Tandayán, los visitantes exploran el pozo de agua sal y la Cascada del Pensamiento,
+                    <p>En Tandayán, los visitantes exploran los pozos de agua sal y la Cascada del Pensamiento,
                          donde se ofrece una terapia de relajación en un entorno natural.</p>
                     <div class="icon-group">
                     <i class="fas fa-monument"></i>

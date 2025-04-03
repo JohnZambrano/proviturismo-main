@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="title">🚗📢 Editar publicación de medios de Transporte🚌✈️</h1>
+    <h1 class="title">🚗📢 Editar publicación de medios de transporte🚌✈️</h1>
 
     <form action="{{ route('transportes.update', $transporte->id) }}" method="POST" enctype="multipart/form-data">
         @csrf

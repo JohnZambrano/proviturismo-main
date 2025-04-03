@@ -154,7 +154,7 @@
                 </h1>
                 <br>
                 <p class="text-center fw-bold text-muted fs-5 welcome-text">
-                🏨Conozca nuevos destinos, reconecta con la naturaleza🌟.
+                🏨Conoce nuevos destinos en Providencia Nariño, reconecta con la naturaleza🌟.
                 </p>
                 
             </div>
@@ -177,7 +177,7 @@
                 </h1>
                 <br>
                 <p class="text-center fw-bold text-muted fs-5 welcome-text">
-                🚗Descubra la magia de la naturaleza, visitando los atractivos que ofrece Providencia🌟.
+                🚗Descubre la magia de la naturaleza visitando los atractivos que ofrece Providencia Nariño🌟.
                 </p>
             </div>
 
@@ -209,28 +209,28 @@
                             <img src="{{ asset('img/Cabuya.jpeg') }}" class="d-block w-100" alt="Trabajador de fique">
                             <div class="carousel-caption">
                                 <h1>Trabajador de fique</h1>
-                                <p>Uno de los trabajos mas tradicionales en Providencia es sacar fique...</p>
+                                <p>Uno de los trabajos más tradicionales en Providencia es sacar fique...</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="{{ asset('img/provi3.jpeg') }}" class="d-block w-100" alt="Parque principal">
                             <div class="carousel-caption">
                                 <h1>Parque principal de Providencia</h1>
-                                <p>Conoce uno de los pueblos mas bonitos de Nariño.</p>
+                                <p>Conoce uno de los pueblos más bonitos de Nariño.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="{{ asset('img/Gruta.jpeg') }}" class="d-block w-100" alt="Gruta">
                             <div class="carousel-caption">
                                 <h1>Gruta barrio Lourdes</h1>
-                                <p>Conoce uno de los lugares mas bonitos del municipio de Providencia Nariño.</p>
+                                <p>Conoce uno de los lugares más bonitos del municipio de Providencia Nariño.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="{{ asset('img/Bellaco.jpeg') }}" class="d-block w-100" alt="Capilla">
                             <div class="carousel-caption">
-                                <h1>Capilla de la Divina Providencia salado bellaco</h1>
-                                <p>Conoce uno de los lugares mas emblemáticos como lo es la capilla del salado bellaco en la vereda la Floresta</p>
+                                <h1>Capilla de la Divina Providencia salado Bellaco</h1>
+                                <p>Conoce uno de los lugares más emblemáticos como lo es la capilla del salado bellaco en la vereda la Floresta</p>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -243,8 +243,8 @@
                         <div class="carousel-item">
                             <img src="{{ asset('img/SaladoGrande.jpeg') }}" class="d-block w-100" alt="Capilla">
                             <div class="carousel-caption">
-                                <h1>Posos de sal Salado Grande vereda el Salado</h1>
-                                <p>Conoce la belleza y misterio que representan los posos de Sal En Providencia.</p>
+                                <h1>Pozos de sal Salado Grande vereda el Salado</h1>
+                                <p>Conoce la belleza y misterio que representan los pozos de Sal en Providencia.</p>
                             </div>
                         </div>
                         
@@ -289,8 +289,8 @@
                     <div class="icon-container">
                         <i class="fas fa-horse"></i>
                     </div>
-                    <h3 class="activity-title">Férias y fiestas</h3>
-                    <p class="activity-description">Celebraciones tradicionales como férias agropecuarias y fiestas del municipio</p>
+                    <h3 class="activity-title">Ferias y fiestas</h3>
+                    <p class="activity-description">Celebraciones tradicionales como ferias agropecuarias y fiestas del municipio</p>
                     <a href="/evento_cultural/index" class="reserve-button">Ver más</a>
                 </div>
 
@@ -299,7 +299,7 @@
                         <i class="fas fa-camera"></i>
                     </div>
                     <h3 class="activity-title">Miradores y Tours Fotográficos</h3>
-                    <p class="activity-description">Observa y Captura los mejores momentos</p>
+                    <p class="activity-description">Observa y captura los mejores momentos</p>
                     <a href="/lugar_turistico/index" class="reserve-button">Ver más</a>
                 </div>
 
@@ -404,7 +404,7 @@
                             <i class="fas fa-user-friends service-icon"></i>
                             <h3>Ofrece un servicio:</h3>
                             <br>
-                            <p>Registrate y ten la oportunidad de promocionar tu servicio a traves de ProviTurismo</p>
+                            <p>Regístrate y ten la oportunidad de promocionar tu servicio a través de ProviTurismo</p>
                         </div>
                     </div>
 

@@ -52,7 +52,7 @@
 
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-bolt"></i>
-                <h3>Adrenalina y sangre fria:</h3>
+                <h3>Adrenalina y sangre fría:</h3>
                 <p>Los ciclistas deben demostrar habilidades excepcionales de control y equilibrio mientras 
                     navegan por senderos estrechos, rocas, raíces y otros obstáculos naturales.</p>
             </div>

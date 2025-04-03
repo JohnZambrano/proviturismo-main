@@ -4,7 +4,7 @@
 
     <div class="welcome-container">
         <div class="welcome-content">
-            <h1 class="welcome-title">Conoce las actividades culturales y turisticas de Providencia</h1>
+            <h1 class="welcome-title">Conoce las actividades culturales y turísticas de Providencia</h1>
             <p class="welcome-subtitle">🏕️Descubre las actividades fascinantes de nuestro municipio🚴</p>
         </div>
     </div>
@@ -26,7 +26,7 @@
         <img src="{{ asset('img_actividades/añov3.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
                 <h3>Desfile de años viejos y fiestas de primero de enero:</h3>
-                <p>El Desfile de Años Viejos es una tradición muy importante en Providencia, 
+                <p>El desfile de años Viejos es una tradición muy importante en Providencia, 
                     donde la gente hace figuras que se llaman "años viejos" para despedir el año que ya se va.
                      Estas figuras son de personas famosas, cosas políticas o hasta chistes que hace la gente. 
                      Al final del desfile, se queman las figuras como señal de que se empieza un año nuevo 
@@ -40,13 +40,13 @@
         <img src="{{ asset('img_actividades/carroza2.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
                 <h3>Carnaval de negros y blancos:</h3>
-                <p>El Carnaval de Negros y Blancos es una de las festividades más importantes en Providencia,
+                <p>El carnaval de negros y Blancos es una de las festividades más importantes en Providencia,
                      la cual refleja la cultura Nariñense. Este carnaval, se celebra desde el 3 hasta el 6 de enero,
                       es una festividad que atrae a locales y turistas de otras regiones dado la belleza de estos carnavales. 
                       Durante el carnaval, el municipio se llena de color y folclor gracias a sus presentaciones, siendo las
                        comparsas y las carrozas los elementos principales de la celebración. Esta festividad es una oportunidad 
                        para que los barrios y veredas se unan y muestren su creatividad a través de danzas y decoraciones en las
-                        carrosas.</p>
+                        carrozas.</p>
                         <a href="/evento_cultural/vista2" class="reserve-button">Ver más</a> 
             </div>
         </div>
@@ -55,10 +55,10 @@
         <img src="{{ asset('img_actividades/zapallos.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
                 <h3>Ferias agropecuarias del municipio:</h3>
-                <p>Las Ferias Agropecuarias de Providencia son muy importantes para el campo, ya que muestran todo
-                     lo que se produce en la región, desde ganado hasta productos agrícolas como la papa, yuca, racacha etc. 
+                <p>Las ferias agropecuarias de Providencia son muy importantes para el campo, ya que muestran todo
+                     lo que se produce en la región, desde ganado hasta productos agrícolas como la papa, yuca, aracacha etc. 
                      Por este motivo, es un evento donde se reúnen las personas de las veredas y de la parte urbana del municipio,
-                      sirviendo el evento como un punto de encuentro para resaltan todo lo que produce Providencia.
+                      sirviendo el evento como un punto de encuentro para resaltar todo lo que produce Providencia.
                       se pueden ver exposiciones de animales, productos agrícolas de cosechas, y productos derivados de la leche, 
                       además de competencias donde se premian los mejores productos del año, y mejores animales en cada categoría. 
                       Y para complementar también hay concursos como el bien conocido al mejor disfraz de cuy”.</p>
@@ -70,7 +70,7 @@
         <img src="{{ asset('img_actividades/cromi.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
                 <h3>Campeonatos de verano y actividades deportivas:</h3>
-                <p>El Campeonato de Verano se hace todos los años en los meses de junio y julio, en el Estadio San Bernardo.
+                <p>El campeonato de verano se hace todos los años en los meses de junio y julio, en el Estadio San Bernardo.
                      Este lugar es muy conocido para los deportes en Providencia. Luego, en agosto, se hacen los campeonatos
                       entre barrios y veredas de microfútbol y baloncesto. Esos se juegan en la cancha del barrio San José, 
                       el cual es un lugar popular para estos torneos debido a que siempre se han realizado ahí,
@@ -83,8 +83,8 @@
         <div class="card">
         <img src="{{ asset('img_actividades/downhill.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
-                <h3>Down Hill en las pistas del municipio de Providencia:</h3>
-                <p>El Down Hill se practica en senderos recuperados en las veredas Villa María, Ranchería, y el camino que conecta
+                <h3>Down hill en las pistas del municipio de Providencia:</h3>
+                <p>El down hill se practica en senderos recuperados en las veredas Villa María, Ranchería, y el camino que conecta
                      Villa Nueva con Guadrahuma. Uno de los eventos más importantes fue el Desafío en el año 2020,
                       una competencia organizada en plena pandemia. Estos eventos no solo reúnen a ciclistas locales,
                        sino también a participantes de otros municipios como Guaitarilla, Pasto, Túquerres, Samaniego e Ipiales,
@@ -125,7 +125,7 @@
         <img src="{{ asset('img_actividades/paz3.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
                 <h3>Semana por la paz:</h3>
-                <p>La Semana por la Paz es uno de los eventos más importantes en Providencia, Nariño, que refleja el compromiso de la 
+                <p>La semana por la Paz es uno de los eventos más importantes en Providencia, Nariño, que refleja el compromiso de la 
                     comunidad con la cultura de paz y la convivencia pacífica. Desde su creación en el año 2015, 
                     este evento ha crecido para convertirse en un espacio integral donde convergen el deporte,
                      la cultura, la educación ambiental y la reflexión sobre los derechos humanos y la reconciliación.
@@ -174,7 +174,7 @@
                 <p>La ruta ecoturística en Providencia, Nariño, conecta seis sitios naturales a través de siete veredas, 
                     comenzando en el parque central con un desayuno organizado. Los turistas visitan la vereda El Rosario,
                      la vereda Tandayán con su pozo de agua sal y la Cascada del Pensamiento, y la vereda El Salado Grande 
-                     con sus pozos de aguasal y corrales de piedra. También exploran la Cascada La Rusia en la vereda El Placer, 
+                     con sus pozos de agua sal y corrales de piedra. También exploran la Cascada La Rusia en la vereda El Placer, 
                      el túnel histórico en la vereda La Floresta, y finalizan en el museo de Providencia. El recorrido incluye 
                      actividades culturales como el coro “Cantar es de mi tierra” y una visita a la finca El Nogal para aprender
                       sobre la fibra de fique. </p>

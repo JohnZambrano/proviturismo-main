@@ -1,7 +1,8 @@
 @extends('layouts.myappHoteles')
 
+
 @section('content')
-    
+   
     <section class="main-hero" data-aos="fade-down">
         <div class="hero-header">
         <h1 class="main-title">🌟 Hotel 20 de Julio🌟</h1>
@@ -13,6 +14,7 @@
         <p class="hero-subtitle">Relájate en nuestras habitaciones diseñadas para ofrecerte el máximo confort</p>
             </div>
     </section>
+
 
     <section id="descripcion" class="section-info" data-aos="fade-up">
         <div class="section-header">
@@ -37,6 +39,7 @@
             </div>
         </div>
     </section>
+
 
     <section id="habitaciones" class="container my-5 menu-section">
         <h2 class="text-center menu-title">🛏️Nuestras Habitaciones</h2>
@@ -68,6 +71,7 @@
         </div>
     </section>
 
+
     <section id="servicios" class="section-info" data-aos="fade-up">
         <div class="section-header">
             <h2>🛎️Nuestros Servicios</h2>
@@ -84,7 +88,7 @@
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-spa"></i>
                 <h3>Baño Privado con agua caliente</h3>
-                <p>Relájate y sientre la tranquilidad de tener baño privado bastante acogedor.</p>
+                <p>Relájate y siente la tranquilidad de tener un baño privado bastante acogedor.</p>
             </div>
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-tv"></i>
@@ -97,11 +101,13 @@
                 <p>Asistencia personalizada para tus necesidades.</p>
             </div>
 
+
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-hands-wash"></i>
                 <h3>Limpieza:</h3>
                 <p> Altos estándares de limpieza y mantenimiento.</p>
             </div>
+
 
             <div class="info-card" data-aos="flip-left">
                 <i class="fas fa-snowflake"></i>
@@ -116,7 +122,10 @@
         </div>
 
 
+
+
             <div class="overlay" onclick="closeRating()"></div>
+
 
             <div class="rating-container">
                 <h3>Califica tu experiencia</h3>
@@ -129,7 +138,9 @@
                 </div>
             </div>
 
+
     </section>
+
 
     <section class="rutas-section" id="ubicacion">
         <h2 style="text-align: center; color: var(--primary); margin-bottom: 2rem;">Mapa de localización en el municipio de Providencia-Nariño</h2>
@@ -138,6 +149,7 @@
             </iframe>
         </div>
     </section>
+
 
     <section class="section" id="contacto">
         <div class="contenedor-general">
@@ -173,6 +185,8 @@
         </div>
     </section>
 
+
     <br><br><br>
+
 
     @endsection
