@@ -44,7 +44,7 @@
                 <!-- Contraseña -->
                 <div>
                     <div class="flex items-center mb-2">
-                        <x-input-label for="password" :value="__('Contraseña:')" class="text-gray-700 font-medium"/>
+                        <x-input-label for="password" :value="__('Contraseña:')" class="text-gray-700 font-medium"/> <!-- modificado aquí -->
                         <i class="fas fa-lock ml-2 text-green-600 text-sm"></i>
                     </div>
                     <div class="relative mt-2">
