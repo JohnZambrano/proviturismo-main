@@ -27,7 +27,7 @@
         </div>
         <div class="hero-content">
 
-            <h1 id="hero-title-unique">Descubre actividades y cultura de Providencia, Nariño</h1>
+            <h1 id="hero-title-unique">Actividades y cultura de Providencia, Nariño</h1>
             <p id="hero-subtitle-unique">♻️El turismo de Nariño y sus experiencias auténticas🌟🌄</p>
     
         </div>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expreso San Juan de Pasto - Transporte en Providencia Nariño</title>
+    <link rel="icon" type="image/png" href="{{ asset('img/mylog.png') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
    
     <link rel="stylesheet" href="{{ asset('css/styleswelcome.css') }}">
@@ -157,7 +158,7 @@
                     <div style="display: flex; justify-content: space-between; color: #6c757d; font-size: 0.9rem;">
                         <span><i class="fas fa-route"></i> Rutas variables</span>
                         <div style="margin: 1rem 0;">
-                        <a href="https://wa.me/573114907635" target="_blank" style="text-decoration: none; color: #25D366;">
+                        <a href="https://wa.me/" target="_blank" style="text-decoration: none; color: #25D366;">
                             <i class="fab fa-whatsapp"></i> WhatsApp Directo
                         </a>
                     </div>
@@ -178,7 +179,7 @@
                     <div style="display: flex; justify-content: space-between; color: #6c757d; font-size: 0.9rem;">
                         <span><i class="fas fa-route"></i> Rutas variables</span>
                         <div style="margin: 1rem 0;">
-                        <a href="https://wa.me/573409094642" target="_blank" style="text-decoration: none; color: #25D366;">
+                        <a href="https://wa.me/" target="_blank" style="text-decoration: none; color: #25D366;">
                             <i class="fab fa-whatsapp"></i> WhatsApp Directo
                         </a>
                     </div>
@@ -199,7 +200,7 @@
                     <div style="display: flex; justify-content: space-between; color: #6c757d; font-size: 0.9rem;">
                         <span><i class="fas fa-route"></i> Rutas variables</span>
                         <div style="margin: 1rem 0;">
-                            <a href="https://wa.me/573127498614" target="_blank" style="text-decoration: none; color: #25D366;">
+                            <a href="https://wa.me/" target="_blank" style="text-decoration: none; color: #25D366;">
                                 <i class="fab fa-whatsapp"></i> WhatsApp Directo
                             </a>
                         </div>
@@ -259,11 +260,11 @@
                     <h3>Reservas y Emergencias</h3>
                     <div class="contacto-telefono">
                         <a href="tel:+573001234567" class="enlace-telefono">
-                            <i class="fas fa-phone-volume"></i> 300 123 4567
+                            <i class="fas fa-phone-volume"></i>
                         </a>
                     </div>
                     <div class="contacto-whatsapp">
-                        <a href="https://wa.me/573001234567" target="_blank" class="enlace-whatsapp">
+                        <a href="https://wa.me/" target="_blank" class="enlace-whatsapp">
                             <i class="fab fa-whatsapp"></i> WhatsApp Directo
                         </a>
                     </div>
@@ -418,7 +419,7 @@ h3 {
         <div class="footer-container">
         <div class="footer-info">
                 <div class="logo-container">
-                    <img src="{{ asset('img/LogoProviturismo.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                    <img src="{{ asset('img/myprovidencia.png') }}" alt="ProviTurismo Logo" class="footer-logo">
                 </div>
 
                 <p>🌄Transformando el turismo con experiencias auténticas y sostenibles.</p>

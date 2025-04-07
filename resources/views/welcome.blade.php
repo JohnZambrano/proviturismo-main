@@ -177,7 +177,7 @@
                 </h1>
                 <br>
                 <p class="text-center fw-bold text-muted fs-5 welcome-text">
-                🚗Descubre la magia de la naturaleza visitando los atractivos que ofrece Providencia Nariño🌟.
+                🚗Turismo en Nariño: Vive la magia del municipio de Providencia y sus encantos naturales🌟.
                 </p>
             </div>
 

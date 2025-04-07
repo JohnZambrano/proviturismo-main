@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TransProvidencia - Transporte en Providencia Nariño</title>
+    <link rel="icon" type="image/png" href="{{ asset('img/mylog.png') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
    
     <link rel="stylesheet" href="{{ asset('css/styleswelcome.css') }}">
@@ -679,7 +680,7 @@
         <div class="footer-container">
         <div class="footer-info">
                 <div class="logo-container">
-                    <img src="{{ asset('img/LogoProviturismo.png') }}" alt="ProviTurismo Logo" class="footer-logo">
+                    <img src="{{ asset('img/myprovidencia.png') }}" alt="ProviTurismo Logo" class="footer-logo">
                 </div>
 
                 <p>🌄Transformando el turismo con experiencias auténticas y sostenibles.</p>
