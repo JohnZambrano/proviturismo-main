@@ -223,7 +223,7 @@
             <a href="#" class="text-info">ProviTurismo</a>
         </strong>
         <span class="px-2">|</span>
-        <i class="fas fa-code"></i> con 
+        <i class="fas fa-code"></i> Hecho con
         <i class="fas fa-heart text-danger"></i> por el equipo de desarrollo.
         <br><br>
         <strong>Copyright</strong><p class="mb-0">&copy; {{ date('Y') }} ProviTurismo. Todos los derechos reservados.</p>
