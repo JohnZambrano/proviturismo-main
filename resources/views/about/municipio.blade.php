@@ -249,7 +249,7 @@
                             <i class="fas fa-landmark fa-3x text-primary"></i>
                         </div>
                         <h3 class="card-title h5 mb-3">Libro sobre historia y cultura de Providencia</h3>
-                        <a href="{{ asset('pdfs/historia-providencia.pdf') }}" 
+                        <a href="{{ asset('pdfs/historia-providenciaa.pdf') }}" 
                            class="btn btn-primary mt-auto w-100 py-2"
                            download="Historia-Providencia.pdf"
                            aria-label="Descargar documento histórico">

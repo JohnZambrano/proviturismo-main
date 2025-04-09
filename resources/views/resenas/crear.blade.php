@@ -3,7 +3,7 @@
 @section('content')
 <div class="container-lg py-5">
     <div class="card shadow-lg border-0">
-    <h1 class="title">🌟📝 Crear nueva reseña turística 🗺️⭐</h1>
+        <h1 class="title">🌟📝 Crear nueva reseña turística 🗺️⭐</h1>
 
         <div class="card-body px-lg-5 py-4">
             <form action="{{ route('resenas.store') }}" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
@@ -11,6 +11,7 @@
 
                 <!-- Sección de Información Básica -->
                 <div class="row g-4 mb-5">
+                    <!-- ... (se mantiene igual que antes) ... -->
                     <div class="col-md-4">
                         <div class="form-floating">
                             <select name="tipo" id="tipo" class="form-select" required>
@@ -52,7 +53,7 @@
                     </div>
                 </div>
 
-                <!-- Sección de Valoración -->
+                <!-- Sección de Valoración - Modificada para validación de estrellas -->
                 <div class="row g-4 mb-5">
                     <div class="col-md-6">
                         <div class="rating-container bg-light rounded-3 p-4">
@@ -69,10 +70,15 @@
                                     </label>
                                 @endfor
                             </div>
+                            <!-- Mensaje de error agregado para validación de estrellas -->
+                            <div class="invalid-feedback" id="starError" style="display: none;">
+                                Por favor selecciona una calificación con estrellas.
+                            </div>
                             <div class="rating-feedback mt-2 small text-muted"></div>
                         </div>
                     </div>
 
+                    <!-- ... (se mantiene igual que antes) ... -->
                     <div class="col-md-6">
                         <div class="form-floating h-100">
                             <textarea name="texto_comentario" id="texto_comentario"
@@ -88,7 +94,7 @@
                     </div>
                 </div>
 
-                <!-- Sección de Multimedia -->
+                <!-- ... (resto del formulario igual) ... -->
                 <div class="row mb-5">
                     <div class="col-12">
                         <div class="file-upload-card border-dashed rounded-3 p-4">
@@ -108,8 +114,8 @@
                     </div>
                 </div>
 
-                <!-- Botones de Acción -->
-                <div class="d-grid gap-3 d-md-flex justify-content-md-end mt-5">
+                 <!-- Botones de Acción -->
+                 <div class="d-grid gap-3 d-md-flex justify-content-md-end mt-5">
                     <button type="submit" class="btn btn-primary btn-lg px-4">
                         <i class="fas fa-paper-plane me-2"></i>Publicar Reseña
                     </button>
@@ -124,6 +130,7 @@
 </div>
 
 <style>
+    /* Estilos modificados para validación */
     .star-rating {
         display: flex;
         flex-direction: row-reverse;
@@ -131,6 +138,21 @@
         justify-content: center;
         gap: 0.5rem;
     }
+
+    /* Clase para estado inválido en estrellas */
+    .is-invalid .star-rating label {
+        color: #dc3545 !important;
+    }
+
+    /* Estilos para el mensaje de error de estrellas */
+    #starError {
+        display: none;
+        color: #dc3545;
+        font-size: 0.875em;
+        margin-top: 0.25rem;
+    }
+
+    /* ... (otros estilos se mantienen igual) ... */
 
     .star-rating label {
         color: #dee2e6;
@@ -171,8 +193,58 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Validación de formulario
-    const forms = document.querySelector('.needs-validation')
+    // Elementos importantes para la validación
+    const form = document.querySelector('.needs-validation');
+    const starInputs = document.querySelectorAll('input[name="puntaje"]');
+    const starError = document.getElementById('starError');
+
+    // Validación personalizada para estrellas
+    function validateStars() {
+        const starSelected = Array.from(starInputs).some(input => input.checked);
+        if (!starSelected) {
+            starError.style.display = 'block';
+            return false;
+        }
+        starError.style.display = 'none';
+        return true;
+    }
+
+    // Evento de envío del formulario
+    form.addEventListener('submit', function(event) {
+        let isValid = true;
+        
+        // Validación estándar de Bootstrap
+        if (!form.checkValidity()) {
+            isValid = false;
+        }
+
+        // Validación personalizada de estrellas
+        if (!validateStars()) {
+            isValid = false;
+        }
+
+        if (!isValid) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        
+        form.classList.add('was-validated');
+    }, false);
+
+    // Resetear validación al seleccionar estrella
+    starInputs.forEach(input => {
+        input.addEventListener('change', () => {
+            if (input.checked) {
+                starError.style.display = 'none';
+                form.classList.remove('was-validated');
+            }
+        });
+    });
+
+    // ... (resto del JavaScript previo se mantiene igual) ...
+    
+     // Validación de formulario
+     const forms = document.querySelector('.needs-validation')
     forms.addEventListener('submit', function(event) {
         if (!form.checkValidity()) {
             event.preventDefault()
@@ -232,6 +304,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Tooltips para las estrellas
     const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     tooltipTriggerList.map(triggerEl => new bootstrap.Tooltip(triggerEl))
-})
+
+    // ... (resto del JavaScript previo se mantiene igual) ...
+});
 </script>
 @endsection
