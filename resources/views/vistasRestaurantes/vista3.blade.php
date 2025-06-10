@@ -6,7 +6,7 @@
 
     <section class="main-hero" data-aos="fade-down">
         <div class="hero-header">
-            <h1 class="main-title">🍽️ Restaurante Marleny🍽️</h1>
+            <h1 class="main-title">🍽️ Restaurante Ana Samira🍽️</h1>
             <div class="title-decoration">
                 <div class="decoration-line"></div>
                 <div class="decoration-star">✧</div>

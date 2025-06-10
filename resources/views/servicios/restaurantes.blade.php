@@ -56,8 +56,8 @@
         <div class="card">
         <img src="{{ asset('img_servicios/Marleny.jpeg') }}" class="d-block w-100" alt="...">
             <div class="card-content">
-                <h3>Restaurante Marleny</h3>
-                <p>El Restaurante Marleny es un rincón lleno de tradición y calidez donde se sirve comida casera hecha con amor.
+                <h3>Restaurante Ana Samira</h3>
+                <p>El Restaurante Ana Samira es un rincón lleno de tradición y calidez donde se sirve comida casera hecha con amor.
                     Este restaurante es conocido por su hospitalidad y por ofrecer platos auténticos que resaltan los sabores de la región,
                      elaborados con ingredientes frescos y locales.</p>
                        <a href="/vistasRestaurantes/vista3" class="reserve-button">Ver más</a>

@@ -78,8 +78,8 @@
                     </div>
                 </div>
 
-
-                <div class="card">
+             <!-- 
+             <div class="card">
                 <img src="{{ asset('img_servicios/CasaFlores.jpeg') }}" class="d-block w-100" alt="...">
                     <div class="card-content">
                         <h3>Residencia casa de las flores</h3>
@@ -90,7 +90,7 @@
                            
                     </div>
                 </div>
-
+             -->
 
         </div>    
 

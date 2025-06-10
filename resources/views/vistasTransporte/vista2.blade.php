@@ -88,14 +88,10 @@
                 <h3 style="color: var(--primary);"><i class="fas fa-route"></i> Ruta Providencia - Pasto</h3>
                 <div class="horario-item">
                     <h3 style="color: var(--primary);">Hora de salida: </h3>
-                    <span>Lunes a Sabado </span>
-                    <span>5:00 AM </span>
+                    <span>Lunes a Sabado  </span>
+                    <span> 5:00 AM </span>
                 </div>
-                <div class="horario-item">
-                    <h3 style="color: var(--primary);">Hora de salida: </h3>
-                    <span>Domingos</span>
-                    <span>12:00</span>
-                </div>
+               
                 <p style="margin-top: 1rem;"><i class="fas fa-map-marker-alt"></i> Paradas principales: Mercado Central, Terminal</p>
                 <p style="margin-top: 1rem;"><i class="fas fa-bus"></i> Vehículos: Busetas 19 puestos</p>
             </div>
@@ -104,8 +100,8 @@
                 <h3 style="color: var(--primary);"><i class="fas fa-route"></i> Ruta Pasto - Providencia</h3>
                 <div class="horario-item">
                     <h3 style="color: var(--primary);">Hora de salida: </h3>
-                    <span>Lunes a Domingo</span>
-                    <span>12:00 PM</span>
+                    <span>Lunes a Sabado</span>
+                    <span> 4:30 PM</span>
                 </div>
               
                 <p style="margin-top: 1rem;"><i class="fas fa-map-marker-alt"></i> Paradas principales: Parque Central, Terminal</p>
