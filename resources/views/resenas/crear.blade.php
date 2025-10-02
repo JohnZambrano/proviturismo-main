@@ -47,7 +47,7 @@
                             <input type="text" name="elemento_uid" id="elemento_uid" 
                                    class="form-control" placeholder="Nombre del recurso" 
                                    required pattern=".{3,100}">
-                            <label for="elemento_uid">Nombre del recurso a reseñar</label>
+                            <label for="elemento_uid">Titulo del recurso a reseñar</label>
                             <div class="invalid-feedback">El nombre debe tener entre 3 y 100 caracteres</div>
                         </div>
                     </div>

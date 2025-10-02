@@ -216,6 +216,329 @@
 
     </section>
 
+    
+            <!-- Contenedor para proveedores -->
+                <section class="proveedor-section">
+                    <div class="proveedor-container">
+                        <h3>¿Eres un proveedor<span class="resaltado"> de servicios local?</span> 🚀</h3>
+                        <p>
+                            Promociona tu servicio en <strong>ProviTurismo</strong>.  
+                            Pídele permisos al dueño de la plataforma para publicar tus ofertas y llegar a más turistas. 🌍
+                        </p>
+                        <a href="/about/index" class="btn-proveedor">
+                            📩 Contactar y solicitar permisos
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Estilos -->
+                <style>
+                    /* Fondo púrpura oscuro general */
+                    .proveedor-section {
+                        background:#1c1633; /* púrpura oscuro  #1c1633*/
+                        padding: 60px 20px;
+                        text-align: center;
+                        position: relative;
+                        overflow: hidden;
+                    }
+
+                    /* Contenedor con degradado llamativo */
+                    .proveedor-container {
+                        background: linear-gradient(135deg, #0E9E7E, #1DB593, #382e61);
+                        color: #fff;
+                        text-align: center;
+                        padding: 2.5rem;
+                        border-radius: 25px;
+                        margin: 0 auto;
+                        max-width: 850px;
+                        box-shadow: 0 12px 35px rgba(0,0,0,0.35);
+                        animation: fadeInUp 1.5s ease;
+                        position: relative;
+                        z-index: 1;
+                    }
+
+                    .proveedor-container h3 {
+                        font-size: 2rem;
+                        font-weight: bold;
+                        margin-bottom: 15px;
+                        text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+                    }
+
+                    .proveedor-container .resaltado {
+                        color: #ffeaa7;
+                        text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+                    }
+
+                    .proveedor-container p {
+                        font-size: 1.2rem;
+                        margin-bottom: 25px;
+                        line-height: 1.6;
+                    }
+
+                    /* Botón atractivo */
+                    .btn-proveedor {
+                        display: inline-block;
+                        padding: 14px 30px;
+                        background: linear-gradient(90deg, #ff7675, #e84393);
+                        color: #fff;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        text-decoration: none;
+                        border-radius: 50px;
+                        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+                        transition: all 0.3s ease-in-out;
+                        animation: pulse 1.8s infinite;
+                    }
+
+                    .btn-proveedor:hover {
+                        background: linear-gradient(90deg, #d63031, #c0392b);
+                        transform: scale(1.1);
+                    }
+
+                    /* Partículas decorativas (como en hoteles) */
+                    .proveedor-section::before,
+                    .proveedor-section::after {
+                        content: '';
+                        position: absolute;
+                        border-radius: 50%;
+                        background: rgba(255,255,255,0.08);
+                        animation: float 10s infinite ease-in-out;
+                    }
+                    .proveedor-section::before {
+                        width: 100px; height: 100px;
+                        top: 15%; left: 10%;
+                    }
+                    .proveedor-section::after {
+                        width: 80px; height: 80px;
+                        bottom: 20%; right: 15%;
+                    }
+
+                    /* Animaciones */
+                    @keyframes fadeInUp {
+                        0% { opacity: 0; transform: translateY(40px); }
+                        100% { opacity: 1; transform: translateY(0); }
+                    }
+
+                    @keyframes pulse {
+                        0% { transform: scale(1); }
+                        50% { transform: scale(1.1); }
+                        100% { transform: scale(1); }
+                    }
+
+                    @keyframes float {
+                        0%, 100% { transform: translateY(0); }
+                        50% { transform: translateY(-15px); }
+                    }
+                </style>
+
+                <!---------------------------------------------------------------------------->
+
+                <div class="social-promotion">
+                    <h2 class="social-title">¡Síguenos en Nuestras Redes Sociales!</h2>
+                    <p class="social-subtitle">Conéctate con nosotros y descubre contenido exclusivo</p>
+                    
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/proviturismo"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@proviturismo20?_t=ZS-90DxuV7BRWm&_r=1"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@ProviTurismoNari%C3%B1o"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="bubbles-container"></div>
+                </div>
+
+                <style>
+                .social-promotion {
+                    position: relative;
+                    padding: 50px 20px;
+                    background: linear-gradient(135deg, #3B303D, #095947, #45b7d1,#3B303D);
+                    border-radius: 15px;
+                    overflow: hidden;
+                    margin: 30px auto;
+                    max-width: 800px;
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                    text-align: center;
+                }
+
+                .social-title {
+                    font-size: 2.5rem;
+                    margin-bottom: 15px;
+                    color: white;
+                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                    font-weight: 700;
+                    position: relative;
+                    z-index: 2;
+                    animation: titleGlow 3s infinite alternate;
+                }
+
+                @keyframes titleGlow {
+                    0% {
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                    }
+                    100% {
+                        text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5);
+                    }
+                }
+
+                .social-subtitle {
+                    font-size: 1.2rem;
+                    margin-bottom: 30px;
+                    color: rgba(255, 255, 255, 0.9);
+                    position: relative;
+                    z-index: 2;
+                }
+
+                .social-icons {
+                    display: flex;
+                    justify-content: center;
+                    gap: 25px;
+                    flex-wrap: wrap;
+                    position: relative;
+                    z-index: 2;
+                }
+
+                .social-icons a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    background: rgba(255, 255, 255, 0.2);
+                    color: white;
+                    font-size: 1.8rem;
+                    text-decoration: none;
+                    transition: all 0.4s ease;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+                    position: relative;
+                    overflow: hidden;
+                }
+
+                .social-icons a:before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(45deg, rgba(255,255,255,0.3), transparent);
+                    transform: translateX(-100%);
+                    transition: transform 0.6s;
+                }
+
+                .social-icons a:hover:before {
+                    transform: translateX(100%);
+                }
+
+                .social-icons a:hover {
+                    transform: translateY(-10px) scale(1.1);
+                    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+                }
+
+                /* Efectos específicos para cada red social */
+                .social-icons a:nth-child(1):hover { 
+                    background: #3b5998; 
+                    color: white;
+                }
+                .social-icons a:nth-child(2):hover { 
+                    background: #000000; 
+                    color: white;
+                }
+                .social-icons a:nth-child(3):hover { 
+                    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+                    color: white;
+                }
+                .social-icons a:nth-child(4):hover { 
+                    background: #ff0000; 
+                    color: white;
+                }
+
+                /* Animación de burbujas */
+                .bubbles-container {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1;
+                }
+
+                .bubble {
+                    position: absolute;
+                    bottom: -50px;
+                    background: rgba(255, 255, 255, 0.2);
+                    border-radius: 50%;
+                    animation: float 15s infinite ease-in;
+                    opacity: 0.7;
+                }
+
+                @keyframes float {
+                    0% {
+                        transform: translateY(0) rotate(0deg);
+                        opacity: 0.7;
+                    }
+                    100% {
+                        transform: translateY(-1000px) rotate(720deg);
+                        opacity: 0;
+                    }
+                }
+
+                /* Responsive */
+                @media (max-width: 768px) {
+                    .social-title {
+                        font-size: 2rem;
+                    }
+                    
+                    .social-icons a {
+                        width: 60px;
+                        height: 60px;
+                        font-size: 1.5rem;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    .social-title {
+                        font-size: 1.7rem;
+                    }
+                    
+                    .social-subtitle {
+                        font-size: 1rem;
+                    }
+                    
+                    .social-icons {
+                        gap: 15px;
+                    }
+                }
+                </style>
+
+                <script>
+                // Generar burbujas dinámicamente
+                document.addEventListener('DOMContentLoaded', function() {
+                    const bubblesContainer = document.querySelector('.bubbles-container');
+                    const bubbleCount = 15;
+                    
+                    for (let i = 0; i < bubbleCount; i++) {
+                        const bubble = document.createElement('div');
+                        bubble.classList.add('bubble');
+                        
+                        // Tamaño aleatorio
+                        const size = Math.random() * 50 + 20;
+                        bubble.style.width = `${size}px`;
+                        bubble.style.height = `${size}px`;
+                        
+                        // Posición horizontal aleatoria
+                        bubble.style.left = `${Math.random() * 100}%`;
+                        
+                        // Retraso y duración de animación aleatorios
+                        const delay = Math.random() * 15;
+                        const duration = Math.random() * 10 + 15;
+                        bubble.style.animationDelay = `${delay}s`;
+                        bubble.style.animationDuration = `${duration}s`;
+                        
+                        bubblesContainer.appendChild(bubble);
+                    }
+                });
+                </script>
+
 
 
     <!-- Footer -->

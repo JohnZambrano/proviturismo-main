@@ -48,7 +48,7 @@
                                    class="form-control" placeholder="Nombre del recurso" 
                                    value="{{ old('elemento_uid', $resena->elemento_uid) }}"
                                    required pattern=".{3,100}">
-                            <label for="elemento_uid">Nombre del recurso</label>
+                            <label for="elemento_uid">Titulo del recurso a reseñar</label>
                             <div class="invalid-feedback">El nombre debe tener entre 3 y 100 caracteres</div>
                         </div>
                     </div>

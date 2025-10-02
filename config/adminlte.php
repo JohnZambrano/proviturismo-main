@@ -317,18 +317,19 @@ return [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
         ],
-        [
-            'text' => 'My Perfil',
-            'url' => '/profile',
-            'icon' => 'fas fa-user-circle',
-        ],
-
-       
-        [
+        
+         [
             'text' => 'Página Principal',
             'url' => '/',
             'icon' => 'fas fa-home',
         ],
+
+        [
+            'text' => 'Mi Perfil',
+            'url' => '/profile',
+            'icon' => 'fas fa-user-circle',
+        ],
+
 
         [
             'text' => 'Usuarios',

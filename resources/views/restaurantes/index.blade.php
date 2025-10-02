@@ -31,7 +31,7 @@
                             
                             <!-- Botón Me Gusta -->
                             <button id="likeButton" class="like-button">
-                            ❤️ Like <span id="likeCount" class="like-count">61</span>
+                            ❤️ Like <span id="likeCount" class="like-count">0</span>
                             </button>
                             @can('editar-servicio-restaurante')
                              <a href="{{ route('restaurantes.edit', $restaurante->id) }}" class="btn btn-primary">Editar</a>

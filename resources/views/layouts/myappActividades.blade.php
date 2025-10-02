@@ -99,6 +99,8 @@
     </div>
 
 
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -119,7 +121,7 @@
                 <p>🌄Transformando el turismo con experiencias auténticas y sostenibles.</p>
                 <div class="social-icons">
                     <a href="https://www.facebook.com/proviturismo"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.tiktok.com/@proviturismo20?_t=ZS-90DxuV7BRWm&_r=1"><i class="fab fa-tiktok"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.youtube.com/@ProviTurismoNari%C3%B1o"><i class="fab fa-youtube"></i></a>
                 </div>
@@ -143,7 +145,7 @@
                 </ul>
             </div>
             <div class="text-center py-3 border-top border-secondary">
-                <p class="mb-0">&copy; {{ date('Y') }} ProviTurismo. Todos los derechos reservados.<br/><br/><br/><b>  Versión</b> 1.0.0
+                <p class="mb-0">&copy; {{ date('Y') }} ProviTurismo. Todos los derechos reservados.<br/><br/><br/><b>  Versión</b> 1.0.1
                 <span class="px-2">|</span>
                 <i class="fas fa-clock"></i> <span id="current-time"></span></p>
             </div>

@@ -37,7 +37,7 @@
                     @endif
                     
                     <div class="card-body">
-                        <h5 class="card-title">Nombre: {{ $resena->elemento_uid }}</h5>
+                        <h5 class="card-title"> {{ $resena->elemento_uid }}</h5>
                         <p class="review-text">{{ $resena->texto_comentario ?? 'Sin comentario' }}</p>
                         <div class="metadata">
                             <small>Autor: {{ $resena->user->name }}</small>
@@ -46,7 +46,7 @@
                         
                         <div class="actions d-flex gap-2 align-items-center">
                             <button class="like-button" data-id="{{ $resena->id }}">
-                                ❤️ Like <span class="like-count">52</span>
+                                ❤️ Like <span class="like-count">0</span>
                             </button>
                             @can('editar-reseña')
                             <a href="{{ route('resenas.edit', $resena->id) }}" 

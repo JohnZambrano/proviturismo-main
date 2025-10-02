@@ -29,7 +29,7 @@
                         @enderror
                         <div class="actions d-flex gap-2 align-items-center">
                         <button id="likeButton" class="like-button">
-                        ❤️ Like <span id="likeCount" class="like-count">68</span>
+                        ❤️ Like <span id="likeCount" class="like-count">0</span>
                         </button>
                          @can('editar-servicio-transporte')
                             <a href="{{ route('transportes.edit', $transporte->id) }}" class="btn btn-primary">Editar</a>
