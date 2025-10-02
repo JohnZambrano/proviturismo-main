@@ -216,7 +216,7 @@
                             <img src="{{ asset('img/provi3.jpeg') }}" class="d-block w-100" alt="Parque principal">
                             <div class="carousel-caption">
                                 <h1>Parque principal de Providencia</h1>
-                                <p>Conoce uno de los pueblos más bonitos de Nariño.</p>
+                                <p>Conoce uno de los pueblos más bonitos y jovenes de Nariño.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
