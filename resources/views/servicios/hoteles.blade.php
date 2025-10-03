@@ -395,8 +395,9 @@
             <div class="btn-container">
                 <a href="{{ route('hoteles.create') }}" class="btn-magic-blue">
                     <span class="btn-content">
-                        <span class="btn-icon">🏨</span>
+                        <span class="btn-icon">➕</span>
                         <span class="btn-text">Crear publicación de hotel</span>
+                        <span class="btn-icon">🏨</span>
                     </span>
                     <div class="btn-glow"></div>
                     <div class="btn-sparkle"></div>

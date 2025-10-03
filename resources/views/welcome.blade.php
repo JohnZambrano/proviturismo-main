@@ -741,6 +741,402 @@
                     }
                 });
                 </script>
+
+                <!---------------------------------------------------->
+
+
+           <section class="futuristic-services">
+            <div class="services-container">
+                <div class="light-effect light-1"></div>
+                <div class="light-effect light-2"></div>
+                
+                <h2 class="services-title">📢 Conoce nuestros servicios como desarrolladores🛎️</h2>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🚀</div>
+                        <h3 class="service-title">Desarrollo Web</h3>
+                        <p class="service-description">Creamos sitios web modernos y responsivos con las últimas tecnologías para impulsar tu presencia digital.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3 class="service-title">Diseño UI/UX</h3>
+                        <p class="service-description">Diseñamos interfaces intuitivas y experiencias de usuario excepcionales que cautivan a tus clientes.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🔍</div>
+                        <h3 class="service-title">Marketing Digital y SEO</h3>
+                        <p class="service-description">Estrategias de marketing digital personalizadas para aumentar tu visibilidad y conversiones.</p>
+                    </div>
+                </div>
+                
+                <!-- Botón de contacto agregado -->
+                <div class="contact-button-container">
+                    <button class="contact-button" onclick="window.location.href='/about/index'">
+                        <span class="button-text">📧 Contáctanos</span>
+                        <div class="button-glow"></div>
+                    </button>
+                </div>
+                
+                <div class="particles" id="particles"></div>
+            </div>
+        </section>
+
+        <style>
+            .futuristic-services {
+                width: 100%;
+                padding: 80px 20px;
+                background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+                position: relative;
+                overflow: hidden;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            .services-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                background: rgba(15, 12, 41, 0.7);
+                backdrop-filter: blur(10px);
+                border-radius: 20px;
+                padding: 60px 40px;
+                box-shadow: 0 0 50px rgba(82, 113, 255, 0.3);
+                position: relative;
+                overflow: hidden;
+                border: 1px solid rgba(82, 113, 255, 0.2);
+                animation: containerAppear 1.5s ease-out;
+            }
+            
+            @keyframes containerAppear {
+                0% {
+                    opacity: 0;
+                    transform: translateY(50px) scale(0.9);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translateY(0) scale(1);
+                }
+            }
+            
+            .services-title {
+                text-align: center;
+                font-size: 42px;
+                font-weight: 800;
+                margin-bottom: 60px;
+                position: relative;
+                z-index: 2;
+                background: linear-gradient(90deg, #00dbde, #fc00ff, #00dbde);
+                background-size: 200% auto;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: shimmer 3s linear infinite, float 6s ease-in-out infinite;
+                text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+            }
+            
+            @keyframes shimmer {
+                0% {
+                    background-position: 0% center;
+                }
+                100% {
+                    background-position: 200% center;
+                }
+            }
+            
+            @keyframes float {
+                0%, 100% {
+                    transform: translateY(0);
+                }
+                50% {
+                    transform: translateY(-10px);
+                }
+            }
+            
+            .services-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 30px;
+                margin-top: 40px;
+            }
+            
+            .service-card {
+                background: rgba(255, 255, 255, 0.05);
+                border-radius: 15px;
+                padding: 30px;
+                text-align: center;
+                transition: all 0.4s ease;
+                position: relative;
+                overflow: hidden;
+                border: 1px solid rgba(82, 113, 255, 0.1);
+                z-index: 1;
+                cursor: pointer;
+            }
+            
+            .service-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+                transition: left 0.7s;
+                z-index: -1;
+            }
+            
+            .service-card:hover::before {
+                left: 100%;
+            }
+            
+            .service-card:hover {
+                transform: translateY(-10px) scale(1.03);
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+                border-color: rgba(82, 113, 255, 0.4);
+            }
+            
+            .service-icon {
+                font-size: 50px;
+                margin-bottom: 20px;
+                display: inline-block;
+                animation: rotate 8s linear infinite;
+            }
+            
+            @keyframes rotate {
+                0% {
+                    transform: rotateY(0);
+                }
+                100% {
+                    transform: rotateY(360deg);
+                }
+            }
+            
+            .service-title {
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 15px;
+                color: #fff;
+            }
+            
+            .service-description {
+                color: rgba(255, 255, 255, 0.7);
+                line-height: 1.6;
+                font-size: 16px;
+            }
+            
+            /* Estilos para el botón de contacto */
+            .contact-button-container {
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+                position: relative;
+                z-index: 2;
+            }
+            
+            .contact-button {
+                background: linear-gradient(135deg, #00dbde, #fc00ff);
+                border: none;
+                border-radius: 50px;
+                padding: 18px 40px;
+                font-size: 20px;
+                font-weight: 700;
+                color: white;
+                cursor: pointer;
+                position: relative;
+                overflow: hidden;
+                transition: all 0.4s ease;
+                box-shadow: 0 0 20px rgba(124, 77, 255, 0.5);
+                animation: float 6s ease-in-out infinite;
+            }
+            
+            .contact-button:hover {
+                transform: translateY(-5px) scale(1.05);
+                box-shadow: 0 10px 30px rgba(124, 77, 255, 0.7);
+            }
+            
+            .contact-button::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+                transition: left 0.7s;
+            }
+            
+            .contact-button:hover::before {
+                left: 100%;
+            }
+            
+            .button-glow {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50px;
+                background: linear-gradient(135deg, #00dbde, #fc00ff);
+                filter: blur(10px);
+                opacity: 0.7;
+                z-index: -1;
+                animation: pulse 2s infinite alternate;
+            }
+            
+            .button-text {
+                position: relative;
+                z-index: 1;
+            }
+            
+            /* Partículas flotantes */
+            .particles {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 0;
+                pointer-events: none;
+            }
+            
+            .particle {
+                position: absolute;
+                width: 4px;
+                height: 4px;
+                background: rgba(82, 113, 255, 0.7);
+                border-radius: 50%;
+                animation: floatParticle 15s infinite linear;
+            }
+            
+            @keyframes floatParticle {
+                0% {
+                    transform: translateY(0) translateX(0);
+                    opacity: 0;
+                }
+                10% {
+                    opacity: 1;
+                }
+                90% {
+                    opacity: 1;
+                }
+                100% {
+                    transform: translateY(-100vh) translateX(100px);
+                    opacity: 0;
+                }
+            }
+            
+            /* Efectos de luz */
+            .light-effect {
+                position: absolute;
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                background: radial-gradient(circle, rgba(82, 113, 255, 0.2) 0%, rgba(82, 113, 255, 0) 70%);
+                filter: blur(20px);
+                z-index: 0;
+                animation: pulse 8s infinite alternate;
+            }
+            
+            .light-1 {
+                top: -150px;
+                right: -150px;
+            }
+            
+            .light-2 {
+                bottom: -150px;
+                left: -150px;
+                animation-delay: 2s;
+            }
+            
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                    opacity: 0.5;
+                }
+                100% {
+                    transform: scale(1.3);
+                    opacity: 0.8;
+                }
+            }
+            
+            /* Responsive */
+            @media (max-width: 768px) {
+                .services-title {
+                    font-size: 32px;
+                }
+                
+                .services-container {
+                    padding: 40px 25px;
+                }
+                
+                .service-card {
+                    padding: 20px;
+                }
+                
+                .contact-button {
+                    padding: 15px 30px;
+                    font-size: 18px;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .services-title {
+                    font-size: 28px;
+                }
+                
+                .services-grid {
+                    grid-template-columns: 1fr;
+                }
+                
+                .futuristic-services {
+                    padding: 60px 15px;
+                }
+            }
+        </style>
+
+        <script>
+            // Crear partículas dinámicas
+            document.addEventListener('DOMContentLoaded', function() {
+                const particlesContainer = document.getElementById('particles');
+                const particleCount = 50;
+                
+                for (let i = 0; i < particleCount; i++) {
+                    const particle = document.createElement('div');
+                    particle.classList.add('particle');
+                    
+                    // Posición aleatoria
+                    particle.style.left = Math.random() * 100 + '%';
+                    particle.style.top = Math.random() * 100 + '%';
+                    
+                    // Tamaño aleatorio
+                    const size = Math.random() * 4 + 2;
+                    particle.style.width = size + 'px';
+                    particle.style.height = size + 'px';
+                    
+                    // Opacidad aleatoria
+                    particle.style.opacity = Math.random() * 0.7 + 0.3;
+                    
+                    // Duración de animación aleatoria
+                    particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+                    particle.style.animationDelay = (Math.random() * 5) + 's';
+                    
+                    particlesContainer.appendChild(particle);
+                }
+                
+                // Efecto hover para las tarjetas
+                const serviceCards = document.querySelectorAll('.service-card');
+                
+                serviceCards.forEach(card => {
+                    card.addEventListener('mouseenter', function() {
+                        this.style.zIndex = '10';
+                    });
+                    
+                    card.addEventListener('mouseleave', function() {
+                        this.style.zIndex = '1';
+                    });
+                });
+            });
+        </script>
                         
 
     </div>

@@ -154,17 +154,17 @@
                     <div style="display: flex; justify-content: space-between; color: #6c757d; font-size: 0.9rem;">
                         <span><i class="fas fa-route"></i> Rutas variables</span>
                         <div style="margin: 1rem 0;">
-                        <a href="https://wa.me/" target="_blank" style="text-decoration: none; color: #25D366;">
+                        <a href="https://wa.me/573122163954" target="_blank" style="text-decoration: none; color: #25D366;">
                             <i class="fab fa-whatsapp"></i> WhatsApp Directo
                         </a>
                     </div>
                     </div>
                 </div>
 
-                <!-- Conductor 2 -->
+                 <!-- Conductor 2 -->
                 <div class="item-conductor">
                     <div class="nombre-conductor">
-                        <i class="fas fa-id-badge"></i> Conductor 2 
+                        <i class="fas fa-id-badge"></i> Conductor 2
                     </div>
                     <div class="horario-grafico">
                         <div class="barra-horario" style="left: 10%; width: 40%;" 
@@ -175,33 +175,14 @@
                     <div style="display: flex; justify-content: space-between; color: #6c757d; font-size: 0.9rem;">
                         <span><i class="fas fa-route"></i> Rutas variables</span>
                         <div style="margin: 1rem 0;">
-                        <a href="https://wa.me/" target="_blank" style="text-decoration: none; color: #25D366;">
+                        <a href="https://wa.me/573137482465" target="_blank" style="text-decoration: none; color: #25D366;">
                             <i class="fab fa-whatsapp"></i> WhatsApp Directo
                         </a>
                     </div>
                     </div>
                 </div>
 
-                 <!-- Conductor 3 -->
-                <div class="item-conductor">
-                    <div class="nombre-conductor">
-                        <i class="fas fa-id-badge"></i> Conductor 3 
-                    </div>
-                    <div class="horario-grafico">
-                        <div class="barra-horario" style="left: 10%; width: 40%;" 
-                            data-tooltip="Turno: 6:00 AM - 2:00 PM"></div>
-                        <div class="barra-horario" style="left: 55%; width: 30%; background: #f1c40f;" 
-                            data-tooltip="Descanso: Requerido por Res. 1213/2009"></div>
-                    </div>
-                    <div style="display: flex; justify-content: space-between; color: #6c757d; font-size: 0.9rem;">
-                        <span><i class="fas fa-route"></i> Rutas variables</span>
-                        <div style="margin: 1rem 0;">
-                            <a href="https://wa.me/" target="_blank" style="text-decoration: none; color: #25D366;">
-                                <i class="fab fa-whatsapp"></i> WhatsApp Directo
-                            </a>
-                        </div>
-                    </div>
-              </div>
+                
 
 
           </div>
@@ -256,15 +237,17 @@
                     <h3>Reservas y Emergencias</h3>
                     <div class="contacto-telefono">
                         <a href="tel:+573001234567" class="enlace-telefono">
-                            <i class="fas fa-phone-volume"></i>
+                            <i class="fas fa-phone-volume"></i>3122163954
                         </a>
                     </div>
                     <div class="contacto-whatsapp">
-                        <a href="https://wa.me/" target="_blank" class="enlace-whatsapp">
+                        <a href="https://wa.me/573122163954" target="_blank" class="enlace-whatsapp">
                             <i class="fab fa-whatsapp"></i> WhatsApp Directo
                         </a>
                     </div>
                 </div>
+
+                
             </div>
 
             <!-- Métodos de pago -->
@@ -421,7 +404,7 @@ h3 {
                 <p>🌄Transformando el turismo con experiencias auténticas y sostenibles.</p>
                 <div class="social-icons">
                     <a href="https://www.facebook.com/profile.php?id=100009479425407&locale=es_LA"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.tiktok.com/@proviturismo20?_t=ZS-90DxuV7BRWm&_r=1"><i class="fab fa-tiktok"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.youtube.com/@ProviTurismoNari%C3%B1o"><i class="fab fa-youtube"></i></a>
                 </div>

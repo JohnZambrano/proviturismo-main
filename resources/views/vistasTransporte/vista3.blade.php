@@ -170,7 +170,10 @@
 
         <br><br><br>
 
+        <h3 style="color: var(--primary);"><i class="fas fa-route"></i> Ruta condicionada según disponibilidad</h3>
+
         <div class="horarios-grid">
+            
             <div class="ruta-card">
                 <h3 style="color: var(--primary);"><i class="fas fa-route"></i> Ruta Providencia - Guaitarilla</h3>
                 <div class="horario-item">
@@ -184,6 +187,7 @@
             </div>
 
             <div class="ruta-card">
+                 
                 <h3 style="color: var(--primary);"><i class="fas fa-route"></i> Ruta Guaitarilla - Providencia</h3>
                 <div class="horario-item">
                     <h3 style="color: var(--primary);">Hora de salida: </h3>
@@ -211,6 +215,8 @@
 
 
         <br><br><br>
+
+        <h3 style="color: var(--primary);"><i class="fas fa-route"></i> Ruta condicionada según disponibilidad</h3>
 
         <div class="horarios-grid">
             <div class="ruta-card">
@@ -686,7 +692,7 @@
                 <p>🌄Transformando el turismo con experiencias auténticas y sostenibles.</p>
                 <div class="social-icons">
                     <a href="https://www.facebook.com/profile.php?id=100009479425407&locale=es_LA"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.tiktok.com/@proviturismo20?_t=ZS-90DxuV7BRWm&_r=1"><i class="fab fa-tiktok"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.youtube.com/@ProviTurismoNari%C3%B1o"><i class="fab fa-youtube"></i></a>
                 </div>
